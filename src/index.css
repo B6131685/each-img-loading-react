@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: grid;
+  place-items: start center;
+}
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+body > #root {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-row: auto;
+  padding: 0 30px;
+  gap: auto;
+  justify-content: space-around;
+  place-items: start center;
+}
